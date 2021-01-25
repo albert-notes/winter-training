@@ -18,7 +18,7 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+                
 				<!-- Banner -->
 					<section id="intro" class="main">
 						<span class="icon fa-diamond major"></span>
@@ -29,10 +29,8 @@
                             我被鎖在這個資安的世界裡了，聽說，小丑是一個頂級的世界駭客。沒有人能打破他所設下的重重陷阱...<br>
                             所以，看見這封信的你們，你們有足夠的能力把我救出去嗎?我真的...真的...好......痛ㄎ......苦......
                 </p>
-						<form action="test.php" method="post">
-							Enter your flag to proceed:<input type="text" name="flag" placeholder="SSWT{Th3_Fl0g_F06mat}"><br><br>
-							<input type="submit" value="Submit">
-						</form>
+							Enter your flag to proceed:<input type="text" id="flag" name="flag" placeholder="SSWT{Th3_Fl0g_F06mat}" ><br><br>
+							<input type="submit" value="Submit" onclick="confirm()">
 					</section>
 
 				<!-- Items -->
@@ -113,10 +111,10 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+            <script src="assets/js/confirm.js"></script>
 	</body>
 </html>
