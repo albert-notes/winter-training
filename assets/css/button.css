@@ -29,8 +29,8 @@ body {
 
 .button {
     position: absolute;
-    top: 25vh;  //自己調整
-    left: 35vw;  //自己調整
+    top: 25vh;
+    left: 40vw;
     display: inline-block;
     margin: 0 auto;
     
